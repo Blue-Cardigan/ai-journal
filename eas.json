@@ -1,0 +1,51 @@
+{
+  "cli": {
+    "version": ">= 5.9.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_GEMINI_API_KEY": "AIzaSyC3KIcK6RrLKn-OQYdaL2DcP1TadGEGWIA",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://jekifagepxhlmfqxvriz.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impla2lmYWdlcHhobG1mcXh2cml6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE2MjYyMTAsImV4cCI6MjA1NzIwMjIxMH0.Q2IU2gdcZ8kqBreDHc2GcQZpUvGh99SWJAnqJ3kS9Is"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "EXPO_PUBLIC_GEMINI_API_KEY": "AIzaSyC3KIcK6RrLKn-OQYdaL2DcP1TadGEGWIA",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://jekifagepxhlmfqxvriz.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impla2lmYWdlcHhobG1mcXh2cml6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE2MjYyMTAsImV4cCI6MjA1NzIwMjIxMH0.Q2IU2gdcZ8kqBreDHc2GcQZpUvGh99SWJAnqJ3kS9Is"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    },
+    "web": {
+      "env": {
+        "EXPO_PUBLIC_GEMINI_API_KEY": "AIzaSyC3KIcK6RrLKn-OQYdaL2DcP1TadGEGWIA",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://jekifagepxhlmfqxvriz.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impla2lmYWdlcHhobG1mcXh2cml6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE2MjYyMTAsImV4cCI6MjA1NzIwMjIxMH0.Q2IU2gdcZ8kqBreDHc2GcQZpUvGh99SWJAnqJ3kS9Is"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appName": "AI Journal"
+      },
+      "android": {
+        "track": "production"
+      }
+    }
+  }
+} 
